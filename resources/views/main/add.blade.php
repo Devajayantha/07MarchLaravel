@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Data Mahasiswa</title>
+	<title>Tambah Siswa</title>
 	<link rel="stylesheet" type="text/css" href="{{ 'css/bootstrap.min.css' }}">
 	<link rel="stylesheet" type="text/css" href="{{'css/index.css'}}">
 </head>
@@ -9,12 +9,12 @@
 	<div class="sidebar" id="sidebar">
 		<ul class="nav-item">
 			<li>
-				<a class="selected" href="#">
+				<a href="#">
 					<span>Data Mahasiwa</span>
 				</a>
 			</li>
 			<li>
-				<a  href="create">
+				<a  href="#" class="selected">
 					<span>Tambah Data</span>
 				</a>
 			</li>
@@ -33,28 +33,12 @@
 	<div class="content">
 		<div class="container-fluid">
 			<div class="card">
-				<table class="table table-striped">
-					
-					<thead>
-						<th>No</th>
-						<th>Nama</th>
-						<th>Nim </th>
-						<th>Alamat </th>
-					</thead> 
-					@foreach ($siswa_list as $siswa)
-					<tbody>
-						<tr>
-							<td> {{$siswa -> id}}</td>
-							<td> {{$siswa -> nim }}</td>
-							<td> {{$siswa -> nama_siswa }}</td>
-							<td> {{$siswa -> tanggal_lahir }}</td>
-						</tr>
-					</tbody>
-					@endforeach 
-				</table>
-				<span class="btn btn-secondary >
-					<a href="">TAMBAH DATA</a>
-				</span>
+				<form>
+                    <div class="form-group">
+						
+                    <div>
+
+                </form>
 			</div>
 		</div>
 	</div>

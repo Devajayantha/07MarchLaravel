@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('add', function () {
-    return view('main/index');
+Route::get('show','CrudController@index');
+
+Route::get('tambah', function () {
+    return view('main.add');
 });
