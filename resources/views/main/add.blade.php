@@ -35,7 +35,7 @@
 			<div class="card">
 				<form>
                     <div class="form-group">
-						
+						<input type="text" class="form-control" name="kontol">
                     <div>
 
                 </form>
