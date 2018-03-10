@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="{{'css/index.css'}}">
 </head>
 <body>
+	<input type="text">
 	<div class="sidebar" id="sidebar">
 		<ul class="nav-item">
 			<li>
@@ -20,7 +21,7 @@
 			</li>
 			<li>
 				<a href="#">
-					<span>Update Data</span>
+					<span >Update Data</span>
 				</a>
 			</li>
 			<li>
@@ -35,9 +36,14 @@
 			<div class="card">
 				<form>
                     <div class="form-group">
-						<input type="text" class="form-control" name="kontol">
-                    <div>
-
+						<label for="nama">Nama</label>
+						<input type="text" class="form-control" placeholder="input nama"
+                    <div> 
+					<div class="form-group">
+						<label for="nim">nim</label>
+						<input type="text" class="form-control" placeholder="input nim">
+					</div>
+					
                 </form>
 			</div>
 		</div>
